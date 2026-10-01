@@ -27,6 +27,7 @@ def overlaps(a_start: datetime, a_end: datetime, b_start: datetime, b_end: datet
 
 def peak_usage(usages: list[tuple[datetime, datetime, int]],
                win_start: datetime, win_end: datetime) -> int:
+    
     """窗口 [win_start, win_end) 内设备同时占用数的最大值。
 
     占用数只会在某个预约开始的时刻上升，所以只需检查：窗口起点，
