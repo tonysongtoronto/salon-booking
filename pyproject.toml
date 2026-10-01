@@ -1,0 +1,6 @@
+[project]
+name = "salon-booking"
+version = "0.1.0"
+description = "美甲店预约系统：技师 + 有限设备，创建预约与查询可用时段"
+requires-python = ">=3.10"
+dependencies = []
